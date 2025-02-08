@@ -1,11 +1,6 @@
-# 📌 **Historial de Versiones - Calendario Lunar y Espiritual Femenino** 🌕✨  
+# Versiones
 
-**Autor:** Katherine Vargas [(KathWare)](https://kathware.com.ar)  
-**Última actualización:** 2025-02-07  
-
----
-
-## **🆕 Versión 1.0.0 - 07/02/2025**  
+## 1.0.0 - 2025-02-08
 🔹 **Primera versión del calendario lunar en Google Calendar.**  
 🔹 **Eventos incluidos:**  
    - 🌑 Fases lunares exactas.  
