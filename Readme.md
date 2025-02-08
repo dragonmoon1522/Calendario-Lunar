@@ -98,7 +98,7 @@ Este proyecto se basa en información obtenida de diversas fuentes confiables:
 
 ## 📜 **Historial de Versiones**  
 
-📌 Para ver los cambios y mejoras del proyecto, consulta el **[Historial de Versiones](./version.md)**.  
+📌 Para ver los cambios y mejoras del proyecto, consulta el **[Historial de Versiones](version.md)**.  
 
 
 ## 💜 **Agradecimientos**  
