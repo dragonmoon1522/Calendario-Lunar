@@ -1,6 +1,9 @@
 # 🌕 **Calendario Lunar y Espiritual Femenino**  
 
 📌 **Autor:** Katherine Vargas | [(KathWare)](https://kathware.com.ar)  
+📅 **Última actualización:** 2025-02-08  
+
+---
 
 ## 📌 **Descripción del Proyecto**  
 
@@ -32,21 +35,6 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 
 ---
 
-## 🔍 **Fuentes Consultadas**  
-
-📌 **NASA – Guía de eclipses 2025**  
-🔗 [https://eclipse.gsfc.nasa.gov/eclipse.html](https://eclipse.gsfc.nasa.gov/eclipse.html)  
-
-📌 **WeMystic – Rituales lunares y su significado**  
-🔗 [https://www.wemystic.com/es/luna-y-su-influencia/](https://www.wemystic.com/es/luna-y-su-influencia/)  
-
-📌 **The Old Farmer’s Almanac – Nombres tradicionales de la luna llena**  
-🔗 [https://www.almanac.com/full-moon-names](https://www.almanac.com/full-moon-names)  
-
-*(Más referencias en el código del proyecto.)*  
-
----
-
 ## 📜 **Historial de Versiones**  
 
 🔗 **[📜 Consulta aquí el Historial de Versiones](version.md)**  
@@ -65,5 +53,3 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 ## 💜 **Agradecimientos**  
 
 Gracias a la comunidad que aporta conocimientos sobre **astronomía, astrología y espiritualidad lunar**. ¡Sigamos creando herramientas accesibles e inspiradoras! 🌕✨  
-
-📌 **Última actualización:** *08 de febrero de 2025*  
