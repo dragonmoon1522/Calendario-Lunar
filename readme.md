@@ -50,6 +50,14 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 
 ---
 
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la **GNU GPL v3**. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
+Los textos y descripciones de eventos están licenciados bajo **Creative Commons BY-NC-SA 4.0**.
+
+---
+
 ## 💜 **Agradecimientos**  
 
 Gracias a la comunidad que aporta conocimientos sobre **astronomía, astrología y espiritualidad lunar**. ¡Sigamos creando herramientas accesibles e inspiradoras! 🌕✨  
