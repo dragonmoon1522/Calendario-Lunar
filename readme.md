@@ -1,11 +1,11 @@
-# 🌕 **Calendario Lunar y Espiritual Femenino**  
+## 🌕 **Calendario Lunar y Espiritual Femenino**  
 
 📌 **Autor:** Katherine Vargas | [(KathWare)](https://kathware.com.ar)  
 📅 **Última actualización:** 2025-02-08  
 
 ---
 
-## 📌 **Descripción del Proyecto**  
+### 📌 **Descripción del Proyecto**  
 
 Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Google Calendar**, que incluya:  
 ✅ **Fases lunares exactas.**  
@@ -16,7 +16,7 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 
 ---
 
-## 🚀 **Cómo funciona**  
+### 🚀 **Cómo funciona**  
 
 1️⃣ **Sube los archivos `eventos.json` y `descripciones.json`** a la carpeta `Calendario Lunar` en Google Drive.  
 2️⃣ **Ejecuta el script en Google Apps Script** para sincronizar el calendario.  
@@ -24,7 +24,7 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 
 ---
 
-## 📂 **Estructura del Proyecto**  
+### 📂 **Estructura del Proyecto**  
 
 📌 **Datos del calendario:**  
 - 📜 **[`eventos.json`](./eventos.json)** → Contiene fechas, títulos y descripciones de eventos.  
@@ -35,13 +35,13 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 
 ---
 
-## 📜 **Historial de Versiones**  
+### 📜 **Historial de Versiones**  
 
 🔗 **[📜 Consulta aquí el Historial de Versiones](version.md)**  
 
 ---
 
-## 📅 **Futuras Mejoras**  
+### 📅 **Futuras Mejoras**  
 
 🔹 **Asignación de colores a los eventos** según su tipo.  
 🔹 **Generación automática de eventos sin ejecución manual.**  
@@ -50,7 +50,7 @@ Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Goo
 
 ---
 
-## 📜 Licencia
+### 📜 Licencia
 
 Este proyecto está licenciado bajo la **GNU GPL v3**. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
 
