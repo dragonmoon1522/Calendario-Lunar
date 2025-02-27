@@ -1,14 +1,15 @@
+
 function importarEventosLunares() {
-  var calendarId = CONFIG.CALENDAR_ID; 
-  var calendar = CalendarApp.getCalendarById(calendarId);
+  var CALENDAR_ID = PropertiesService.getScriptProperties().getProperty("CALENDAR_ID");
+ 
+  var calendar = CalendarApp.getCalendarById(CALENDAR_ID);
 
-  // 📂 Leer archivos JSON desde Google Drive
-  var folder = DriveApp.getFoldersByName("Calendario Lunar").next();
-  var eventosFile = folder.getFilesByName("eventos.json").next();
-  var descripcionesFile = folder.getFilesByName("descripciones.json").next();
+  // 📂 Leer archivos JSON desde GitHub en lugar de Google Drive
+  var eventosUrl = "https://raw.githubusercontent.com/dragonmoon1522/calendario-lunar/main/eventos.json";
+  var descripcionesUrl = "https://raw.githubusercontent.com/dragonmoon1522/calendario-lunar/main/descripciones.json";
 
-  var eventos = JSON.parse(eventosFile.getBlob().getDataAsString());
-  var descripciones = JSON.parse(descripcionesFile.getBlob().getDataAsString());
+  var eventos = JSON.parse(UrlFetchApp.fetch(eventosUrl).getContentText());
+  var descripciones = JSON.parse(UrlFetchApp.fetch(descripcionesUrl).getContentText());
 
   // 🔄 PASO 1: Eliminar eventos existentes con retraso para evitar bloqueos
   var allEvents = calendar.getEvents(new Date("2025-01-01"), new Date("2026-01-01"));
@@ -56,8 +57,8 @@ function importarEventosLunares() {
 
     // 💾 Guardar progreso cada 10 eventos y hacer backup antes de modificar eventos.json
     if (index % 10 === 0 || index === eventos.events.length - 1) {
-      hacerBackupEventosJSON(folder);
-      actualizarEventosJSON(folder, eventos);
+      hacerBackupEventosJSON();
+      actualizarEventosJSON(eventos);
     }
 
     // 🔴 Retraso para evitar bloqueos de Google
@@ -67,32 +68,61 @@ function importarEventosLunares() {
   Logger.log("🎉 Sincronización completada.");
 }
 
-// 📂 Función para hacer backup de eventos.json antes de modificarlo
-function hacerBackupEventosJSON(folder) {
-  var archivos = folder.getFilesByName("eventos.json");
-  if (archivos.hasNext()) {
-    var archivoOriginal = archivos.next();
-    var backupFile = folder.getFilesByName("eventos_backup.json");
+var GITHUB_TOKEN = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
 
-    // 🗑️ Si ya existe un backup, lo reemplaza
-    if (backupFile.hasNext()) {
-      backupFile.next().setTrashed(true);
-    }
+// 📂 Función para hacer backup de eventos.json en GitHub usando Gist API
+function hacerBackupEventosJSON() {  
+var GIST_BACKUP_URL = PropertiesService.getScriptProperties().getProperty("GITHUB_GIST_BACKUP_URL");
+  
+  var eventosUrl = "https://raw.githubusercontent.com/dragonmoon1522/calendario-lunar/main/eventos.json";
+  var eventos = UrlFetchApp.fetch(eventosUrl).getContentText();
 
-    folder.createFile("eventos_backup.json", archivoOriginal.getBlob().getDataAsString());
-    Logger.log("📂 Backup creado: eventos_backup.json");
-  }
+  var options = {
+    "method": "PATCH",
+    "headers": {
+      "Authorization": "token " + GITHUB_TOKEN,
+      "Accept": "application/vnd.github.v3+json"
+    },
+    "contentType": "application/json",
+    "payload": JSON.stringify({
+      "files": {
+        "eventos_backup.json": { "content": eventos }
+      }
+    })
+  };
+
+  var response = UrlFetchApp.fetch(GIST_BACKUP_URL, options);
+  Logger.log("📂 Backup subido a GitHub Gist: " + response.getContentText());
 }
 
-// 📂 Función para actualizar eventos.json con el progreso
-function actualizarEventosJSON(folder, eventos) {
-  // 🗑️ Elimina el archivo existente
-  var archivos = folder.getFilesByName("eventos.json");
-  while (archivos.hasNext()) {
-    archivos.next().setTrashed(true);
-  }
+// 📂 Función para actualizar eventos.json en GitHub
+function actualizarEventosJSON(eventos) {
+  var updateUrl = "https://api.github.com/repos/dragonmoon1522/calendario-lunar/contents/eventos.json";
   
-  // 💾 Crea un nuevo archivo con los datos actualizados
-  folder.createFile("eventos.json", JSON.stringify(eventos, null, 2));
-  Logger.log("✅ eventos.json actualizado con progreso.");
+  var currentFile = UrlFetchApp.fetch(updateUrl, {
+    "headers": {
+      "Authorization": "token " + GITHUB_TOKEN,
+      "Accept": "application/vnd.github.v3+json"
+    }
+  });
+  
+  var fileData = JSON.parse(currentFile.getContentText());
+  var sha = fileData.sha;
+
+  var options = {
+    "method": "put",
+    "headers": {
+      "Authorization": "token " + GITHUB_TOKEN,
+      "Accept": "application/vnd.github.v3+json"
+    },
+    "contentType": "application/json",
+    "payload": JSON.stringify({
+      "message": "Actualización automática de eventos.json",
+      "content": Utilities.base64Encode(JSON.stringify(eventos, null, 2)),
+      "sha": sha
+    })
+  };
+
+  var response = UrlFetchApp.fetch(updateUrl, options);
+  Logger.log("✅ eventos.json actualizado en GitHub: " + response.getContentText());
 }

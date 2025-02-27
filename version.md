@@ -1,7 +1,37 @@
 ## 📌 Historial de Versiones Calendario Lunar y Espiritual Femenino 🌕✨  
 
-📅 **Última actualización:** 2025-02-07  
+📅 **Última actualización:** 2025-02-26  
 ✍️ **Autor:** Katherine Vargas [(KathWare)](https://kathware.com.ar)  
+
+---
+
+### 🚀 **Versión 1.0.1 2025-02-26**  
+🔹 **Automatización de eventos en Google Calendar**  
+   🆑 Se eliminan automáticamente los eventos viejos y se agregan los nuevos.  
+   🌍 Ahora se crean eventos con fechas y horas basadas en UTC para adaptarse a cualquier zona horaria.   
+
+🔹 **Fuente de datos centralizada en GitHub**  
+   📝 El calendario ahora obtiene eventos desde un **JSON en GitHub** en lugar de Google Drive.  
+   🖥 También las descripciones se leen desde un **descripciones.json** en GitHub.  
+
+🔹 **Sistema de backups automático**  
+   🔄 Antes de modificar eventos, el script genera un **backup de eventos.json** en un **Gist privado de GitHub**.  
+   ⚠ Esto asegura que no se pierdan datos en caso de errores.  
+
+🔹 **Actualización dinámica de eventos.json**  
+   📆 Se actualizan los **UIDs** de los eventos después de crearlos en Google Calendar.  
+   ⏱ La sincronización con GitHub permite mantener el archivo siempre actualizado.  
+
+🔹 **Ajuste de horas a UTC**  
+   🌎 Los eventos ahora se almacenan en UTC en eventos.json, dejando que Google Calendar ajuste la hora según la región del usuario.  
+   🌐 Evita problemas con horarios incorrectos en distintos países.  
+
+🔹 **Mejor manejo de descripciones**  
+   📖 Se elige aleatoriamente una descripción entre varias opciones para cada evento, dándole mayor dinamismo.  
+   ⌨ Se eliminó la dependencia de Markdown en las descripciones para evitar errores de formato en Google Calendar.  
+
+🔹 **Corrección de errores en fechas de finalización**  
+   ⌛ Se ajustaron fechas de fin para que sean mayores a la de inicio y evitar errores en eventos con duración específica.  
 
 ---
 

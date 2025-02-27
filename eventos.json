@@ -4,97 +4,97 @@
       "id": 10201,
       "title": "Cuarto Creciente",
       "date": "2025-01-06",
-      "time": "20:56:00",
+      "time": "23:56:00",
       "description_id": 102,
       "tradicional": "",
       "status": "N",
-      "uid": "iv18ipt7irue8edppem2geiooo@google.com"
+      "uid": "v3118faeo0ubhv6nro7ddogkgk@google.com"
     },
     {
       "id": 11001,
       "title": "Luna Llena (Luna del Lobo)",
       "date": "2025-01-13",
-      "time": "19:27:00",
+      "time": "22:27:00",
       "description_id": 110,
       "tradicional": "Luna del Lobo",
       "status": "N",
-      "uid": "jrrdfb9lv7tf8185jhhp8l2804@google.com"
+      "uid": "merphgqb76d7d2c85s7dgd5v9k@google.com"
     },
     {
       "id": 10401,
       "title": "Cuarto Menguante",
       "date": "2025-01-21",
-      "time": "17:31:00",
+      "time": "20:31:00",
       "description_id": 104,
       "tradicional": "",
       "status": "N",
-      "uid": "ibgcmvl2gl9cilkm36ilr67jes@google.com"
+      "uid": "vigii5susv0g51b13788n2hvv4@google.com"
     },
     {
       "id": 10101,
       "title": "Luna Nueva",
       "date": "2025-01-29",
-      "time": "09:36:00",
+      "time": "12:36:00",
       "description_id": 101,
       "tradicional": "",
       "status": "N",
-      "uid": "2lni8bg7aaac06c7k363ifko6s@google.com"
+      "uid": "5d1055kvchl90kfjhfh9lg1tjk@google.com"
     },
     {
       "id": 10202,
       "title": "Cuarto Creciente",
       "date": "2025-02-05",
-      "time": "05:02:00",
+      "time": "08:02:00",
       "description_id": 102,
       "tradicional": "",
       "status": "N",
-      "uid": "1eg5uk8ccjnbmhb2mk55noc2fs@google.com"
+      "uid": "muse7dscp9t99kugh84j1ikuq0@google.com"
     },
     {
       "id": 11002,
       "title": "Luna Llena (Luna de Nieve)",
       "date": "2025-02-12",
-      "time": "10:53:00",
+      "time": "13:53:00",
       "description_id": 111,
       "tradicional": "Luna de Nieve",
       "status": "N",
-      "uid": "r0n7cpgahn86ilm33sfklbavd0@google.com"
+      "uid": "sbladgppj1vdo3qht2vl74p9c4@google.com"
     },
     {
       "id": 10402,
       "title": "Cuarto Menguante",
       "date": "2025-02-20",
-      "time": "14:32:00",
+      "time": "17:32:00",
       "description_id": 104,
       "tradicional": "",
       "status": "N",
-      "uid": "k94qn3fs9eea1cd39o76qsusho@google.com"
+      "uid": "jq1eo456e2e90oofpgcufb80is@google.com"
     },
     {
       "id": 10102,
       "title": "Luna Nueva",
-      "date": "2025-02-27",
-      "time": "21:45:00",
+      "date": "2025-02-28",
+      "time": "00:45:00",
       "description_id": 101,
       "tradicional": "",
       "status": "N",
-      "uid": "gffc2c45rh463i2bp5mqtknkm0@google.com"
+      "uid": "870giocfnq6a2qchotm6e06oc8@google.com"
     },
     {
       "id": 10203,
       "title": "Cuarto Creciente",
       "date": "2025-03-06",
-      "time": "13:32:00",
+      "time": "16:32:00",
       "description_id": 102,
       "tradicional": "",
       "status": "N",
-      "uid": "du7qoeuedjkeujnmh2psk8ru70@google.com"
+      "uid": "o9d9d4sooojjts0mjlm7vpdq98@google.com"
     },
     {
       "id": 11003,
       "title": "Luna Llena (Luna del Gusano)",
       "date": "2025-03-14",
-      "time": "03:55:00",
+      "time": "06:55:00",
       "description_id": 112,
       "tradicional": "Luna del Gusano",
       "status": "N"
@@ -103,92 +103,352 @@
       "id": 10503,
       "title": "Eclipse Lunar Total",
       "date": "2025-03-14",
-      "start_time": "03:26:00",
-      "end_time": "07:00:00",
+      "start_time": "06:26:00",
+      "end_time": "10:00:00",
       "description_id": 105,
       "tradicional": "Luna de Sangre",
       "status": "N",
-      "uid": "30f17fnk39fo4icn87jolsdtl8@google.com"
+      "uid": "m0f8dfkrr0081bl34ju0m9dcas@google.com"
     },
     {
       "id": 10403,
       "title": "Cuarto Menguante",
       "date": "2025-03-22",
-      "time": "08:29:00",
+      "time": "11:29:00",
       "description_id": 104,
       "tradicional": "",
       "status": "N",
-      "uid": "i5nisghqk57ih7414m3mc3e6e0@google.com"
+      "uid": "mbi4mv3vrovt6ghsfsjpeuujdc@google.com"
     },
     {
       "id": 10103,
       "title": "Luna Nueva",
       "date": "2025-03-29",
-      "time": "07:58:00",
+      "time": "10:58:00",
       "description_id": 101,
       "tradicional": "",
       "status": "N",
-      "uid": "3pk2gijs992jnjd50hki36vglo@google.com"
+      "uid": "k165v8ot2daugjnb2fpo8ait8o@google.com"
+    },
+    {
+      "id": 10204,
+      "title": "Cuarto Creciente",
+      "date": "2025-04-04",
+      "time": "18:02:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10204@google.com"
+    },
+    {
+      "id": 10104,
+      "title": "Luna Nueva",
+      "date": "2025-04-18",
+      "time": "06:57:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10104@google.com"
+    },
+    {
+      "id": 10404,
+      "title": "Cuarto Menguante",
+      "date": "2025-04-25",
+      "time": "22:55:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10404@google.com"
     },
     {
       "id": 10604,
-      "title": "S?per Luna Llena",
-      "date": "2025-04-25",
-      "time": "23:00:00",
+      "title": "Súper Luna Llena",
+      "date": "2025-04-26",
+      "time": "02:00:00",
       "description_id": 106,
       "tradicional": "",
       "status": "N",
-      "uid": "vb39cu9pf3oo91v8001pgq3usk@google.com"
+      "uid": "c44i9odp76b3vbv5vj7rffcdb0@google.com"
+    },
+    {
+      "id": 10205,
+      "title": "Cuarto Creciente",
+      "date": "2025-05-04",
+      "time": "10:42:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10205@google.com"
+    },
+    {
+      "id": 10105,
+      "title": "Luna Nueva",
+      "date": "2025-05-18",
+      "time": "04:13:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10105@google.com"
+    },
+    {
+      "id": 10405,
+      "title": "Cuarto Menguante",
+      "date": "2025-05-25",
+      "time": "16:19:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10405@google.com"
+    },
+    {
+      "id": 10206,
+      "title": "Cuarto Creciente",
+      "date": "2025-06-03",
+      "time": "02:42:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10206@google.com"
+    },
+    {
+      "id": 10106,
+      "title": "Luna Nueva",
+      "date": "2025-06-16",
+      "time": "14:38:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10106@google.com"
+    },
+    {
+      "id": 10406,
+      "title": "Cuarto Menguante",
+      "date": "2025-06-24",
+      "time": "08:02:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10406@google.com"
+    },
+    {
+      "id": 10207,
+      "title": "Cuarto Creciente",
+      "date": "2025-07-02",
+      "time": "18:12:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10207@google.com"
+    },
+    {
+      "id": 10107,
+      "title": "Luna Nueva",
+      "date": "2025-07-16",
+      "time": "09:24:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10107@google.com"
+    },
+    {
+      "id": 10407,
+      "title": "Cuarto Menguante",
+      "date": "2025-07-24",
+      "time": "23:02:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10407@google.com"
+    },
+    {
+      "id": 10208,
+      "title": "Cuarto Creciente",
+      "date": "2025-08-01",
+      "time": "08:12:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10208@google.com"
+    },
+    {
+      "id": 10108,
+      "title": "Luna Nueva",
+      "date": "2025-08-15",
+      "time": "22:38:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10108@google.com"
+    },
+    {
+      "id": 10408,
+      "title": "Cuarto Menguante",
+      "date": "2025-08-23",
+      "time": "12:32:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10408@google.com"
+    },
+    {
+      "id": 10209,
+      "title": "Cuarto Creciente",
+      "date": "2025-08-31",
+      "time": "22:12:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10209@google.com"
     },
     {
       "id": 10708,
       "title": "Luna Azul",
       "date": "2025-08-31",
-      "time": "03:25:00",
+      "time": "06:25:00",
       "description_id": 107,
       "tradicional": "",
       "status": "N",
-      "uid": "u0lduh96sgesks3t67v9vh0rmk@google.com"
+      "uid": "35ruq8rtq7slmvnihq3q4htp5g@google.com"
+    },
+    {
+      "id": 10109,
+      "title": "Luna Nueva",
+      "date": "2025-09-14",
+      "time": "11:38:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10109@google.com"
+    },
+    {
+      "id": 10409,
+      "title": "Cuarto Menguante",
+      "date": "2025-09-22",
+      "time": "01:32:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10409@google.com"
     },
     {
       "id": 10809,
       "title": "Luna de Sangre / Luna Roja",
       "date": "2025-09-07",
-      "time": "15:09:00",
+      "time": "18:09:00",
       "description_id": 108,
       "tradicional": "",
       "status": "N",
-      "uid": "fjun86e4phtdiiu42gjcnsbm80@google.com"
+      "uid": "vum7ij5r1r4j3t1ss1fijmpuq8@google.com"
+    },
+    {
+      "id": 10210,
+      "title": "Cuarto Creciente",
+      "date": "2025-09-30",
+      "time": "12:12:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10210@google.com"
+    },
+    {
+      "id": 10110,
+      "title": "Luna Nueva",
+      "date": "2025-10-14",
+      "time": "00:38:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10110@google.com"
+    },
+    {
+      "id": 10410,
+      "title": "Cuarto Menguante",
+      "date": "2025-10-21",
+      "time": "14:32:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10410@google.com"
     },
     {
       "id": 10910,
       "title": "Luna Negra",
-      "date": "2025-10-25",
-      "time": "22:00:00",
+      "date": "2025-10-26",
+      "time": "01:00:00",
       "description_id": 109,
       "tradicional": "",
       "status": "N",
-      "uid": "bgdhvob5gsl8t6kjdmv2g58mik@google.com"
+      "uid": "ei0tajceg98f738d695su89be4@google.com"
+    },
+    {
+      "id": 10211,
+      "title": "Cuarto Creciente",
+      "date": "2025-10-30",
+      "time": "02:12:00",
+      "description_id": 102,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10211@google.com"
+    },
+    {
+      "id": 10111,
+      "title": "Luna Nueva",
+      "date": "2025-11-12",
+      "time": "13:38:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10111@google.com"
+    },
+    {
+      "id": 10411,
+      "title": "Cuarto Menguante",
+      "date": "2025-11-20",
+      "time": "03:32:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10411@google.com"
     },
     {
       "id": 10611,
-      "title": "S?per Luna Llena",
+      "title": "Súper Luna Llena",
       "date": "2025-11-05",
-      "time": "10:19:00",
+      "time": "13:19:00",
       "description_id": 106,
       "tradicional": "",
       "status": "N",
-      "uid": "0ac7l75fm3d5a0pc0jhgpip304@google.com"
+      "uid": "ltj9tm0gfo93j4efd1t68ma1r4@google.com"
     },
     {
-      "id": 10612,
-      "title": "S?per Luna Llena",
-      "date": "2025-12-04",
-      "time": "20:15:00",
-      "description_id": 106,
+      "id": 10212,
+      "title": "Cuarto Creciente",
+      "date": "2025-11-28",
+      "time": "16:12:00",
+      "description_id": 102,
       "tradicional": "",
       "status": "N",
-      "uid": "lhjm54on6nonnore5pbfkrknu4@google.com"
+      "uid": "new-uid-10212@google.com"
+    },
+    {
+      "id": 10112,
+      "title": "Luna Nueva",
+      "date": "2025-12-12",
+      "time": "02:38:00",
+      "description_id": 101,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10112@google.com"
+    },
+    {
+      "id": 10412,
+      "title": "Cuarto Menguante",
+      "date": "2025-12-19",
+      "time": "16:32:00",
+      "description_id": 104,
+      "tradicional": "",
+      "status": "N",
+      "uid": "new-uid-10412@google.com"
     }
   ]
 }
