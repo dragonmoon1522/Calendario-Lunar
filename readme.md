@@ -1,11 +1,11 @@
-## 🌕 **Calendario Lunar y Espiritual Femenino**  
+## **Calendario Lunar y Espiritual Femenino**  
 
-📌 **Autor:** Katherine Vargas | [(KathWare)](https://kathware.com.ar)  
-📅 **Última actualización:** 2025-02-26  
+ **Autor:** Katherine Vargas | [(KathWare)](https://kathware.com.ar)  
+ **Última actualización:** 2025-02-26  
 
 ---
 
-### 📌 **Descripción del Proyecto**  
+### **Descripción del Proyecto**  
 
 Este proyecto busca crear un **Calendario Lunar y Espiritual Femenino** en **Google Calendar**, que incluya:  
 ✅ **Fases lunares exactas** con ajuste automático a la zona horaria del usuario.  
