@@ -1,7 +1,11 @@
 ## **Calendario Lunar y Espiritual Femenino**  
 
  **Autor:** Katherine Vargas | [(KathWare)](https://kathware.com.ar)  
- **Última actualización:** 2025-02-26  
+ **Última actualización:** 2026-10-27  
+
+---
+
+> **Estado: descontinuado por el momento.** El desarrollo y el mantenimiento están pausados. El proyecto podría retomarse más adelante.
 
 ---
 
