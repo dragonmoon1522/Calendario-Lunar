@@ -1,7 +1,13 @@
 ## 📌 Historial de Versiones Calendario Lunar y Espiritual Femenino 🌕✨  
 
-📅 **Última actualización:** 2025-02-26  
+📅 **Última actualización:** 2026-10-28  
 ✍️ **Autor:** Katherine Vargas [(KathWare)](https://kathware.com.ar)  
+
+---
+
+### 🚀 **Versión 1.0.2 2026-10-28**  
+🔹 **Estado del proyecto**  
+   ⏸ Se documenta que el desarrollo y el mantenimiento están pausados por el momento. El proyecto podría retomarse más adelante.  
 
 ---
 
